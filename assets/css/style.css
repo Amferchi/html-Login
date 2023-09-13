@@ -300,3 +300,126 @@ nav {
 .dropdown a:hover {
   background-color: #f1f1f1;
 }
+
+#log-no{
+  padding-left: 10px;
+  color: darkorange;
+  text-decoration: none;
+  outline:none;
+ }
+.in-form{
+  margin: 0 auto !important;
+  width:400px;
+  border-radius: 8px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+form p{
+  margin-top: 8px;
+}
+
+.form-control {
+  display: block;
+  width: 93%;
+  height: calc(1.3em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .form-control {
+    transition: none;
+  } 
+   .btn-info{
+    transition: none;
+  }
+}
+
+.form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.form-control:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #495057;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ffefb3;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.btn-info{ 
+  border:none;
+  display:flex;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  display: inline-block;
+  font-weight: 400;
+  color:white;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0;
+}
+
+.btn-info:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.btn-info:focus, .btn-info.focus {
+  color: #fff;
+  outline: 0;
+  background-color: #138496;
+  border-color: #117a8b;
+  box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+}
+
+input,.btn-bd-ra{
+ border-radius: 15px !important;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #F5F5F5;
+  border: 1px solid #dee2e6;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-Lfont{
+   font-weight: 700;
+}
+
+button{
+  width: 100% !important;
+  height: 60px !important;
+  font-size: X-large !important;
+  z-index: 50;
+}
