@@ -279,7 +279,8 @@ nav {
 .dropdown {
   display: none;
   position: absolute;
-  top: 100%; /* Position it below the user image */
+  top: 100%;
+  
   left: 50%;
   transform: translateX(-50%);
   background-color: #f9f9f9;
@@ -293,8 +294,8 @@ nav {
   padding: 10px 10px;
   text-decoration: none;
   display: block;
-  text-align: center; /* Center the text */
-  width: 100%; /* Make the links fill the container */
+  text-align: center; 
+  width: 100%; 
 }
 
 .dropdown a:hover {
@@ -308,6 +309,7 @@ nav {
   outline:none;
  }
 .in-form{
+  position: relative;
   margin: 0 auto !important;
   width:400px;
   border-radius: 8px;
@@ -317,8 +319,8 @@ nav {
   text-align: center;
 }
 
-form p{
-  margin-top: 8px;
+ p{
+  margin-top: 70px;
 }
 
 .form-control {
@@ -418,8 +420,12 @@ input,.btn-bd-ra{
 }
 
 button{
-  width: 100% !important;
+  width: 110% !important;
   height: 60px !important;
   font-size: X-large !important;
   z-index: 50;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
 }
