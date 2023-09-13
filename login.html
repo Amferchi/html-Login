@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/auth.css">
 	<title>Login</title>
 </head>
 <body>
@@ -27,16 +27,17 @@
         <h2 class="text-center header text-bfont">Login to your account</h2>
          <br>
         <div class="img-thumbnail col-9 col-md-4 in-form" id="log-div">
-        	 <form action="#" method="post">
+        	 <form action="index.html" method="post">
         	 	 <label for="first-name">Username</label>
-        	 	 <input type="text" class="form-control">
+        	 	 <input type="text" class="form-control" required>
         	 	 <label for="first-name">Password</label>
-        	 	 <input type="password" class="form-control">
+        	 	 <input type="password" class="form-control" required>
         	 	 <br>
-               <button class="form-control btn btn-info btn-bd-ra">Login</button>        	 	 
+               <button class="form-control btn btn-info btn-bd-ra">Login</button>
+               <p class="text-center">Don't have an account?<a href="signup.html"><span id="log-no">Signup</span></a></p>     	 	 
         	 </form>
         </div>  
-        <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br>
   <footer>
     <div class="footer-content">
       <div>Confidential - Copyright © 2023, Company Name, All Rights Reserved</div>

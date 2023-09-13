@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/auth.css">
 	<title>Sign up</title>
 </head>
 <body>
@@ -27,19 +27,20 @@
       <h2 class="text-center head-info">Create an account</h2>
        <br>
         <div class="img-thumbnail col-9 col-md-4 in-form">
-        	 <form action="#" method="post">
+        	 <form action="index.html" method="post">
         	 	 <label for="first-name">First name</label>
-        	 	 <input type="text" class="form-control">
+        	 	 <input type="text" class="form-control" required>
         	 	 <label for="first-name">Last name</label>
-        	 	 <input type="text" class="form-control">
+        	 	 <input type="text" class="form-control" required>
         	 	 <label for="first-name">Username</label>
-        	 	 <input type="text" class="form-control">
+        	 	 <input type="text" class="form-control" required>
         	 	 <label for="first-name">Email</label>
-        	 	 <input type="email" class="form-control">
+        	 	 <input type="email" class="form-control" required>
         	 	 <label for="first-name">Password</label>
-        	 	 <input type="password" class="form-control">  
+        	 	 <input type="password" class="form-control" required>  
         	 	 <br>
-        	 	 <button class="form-control btn btn-info btn-bd-ra text-Lfont">Sign up</button>        	 	 
+        	 	 <button class="form-control btn btn-info btn-bd-ra text-Lfont">Sign up</button>
+            <p class="text-center">Already have an account?<a href="login.html"><span id="log-no">Login</span></a></p>        	 	 
         	 </form>
         </div>
    <footer>
