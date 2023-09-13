@@ -22,3 +22,22 @@ const changeColspan = () => {
 }
 window.addEventListener("load", changeColspan)
 window.addEventListener("resize", changeColspan)
+
+document.addEventListener("DOMContentLoaded", function() {
+  var userImages = document.getElementsByClassName("user-image");
+  
+  for (var i = 0; i < userImages.length; i++) {
+      userImages[i].addEventListener("click", function() {
+          var dropdown = this.nextElementSibling;
+          toggleDropdown(dropdown);
+      });
+  }
+});
+
+function toggleDropdown(dropdown) {
+  if (dropdown.style.display === "block") {
+      dropdown.style.display = "none";
+  } else {
+      dropdown.style.display = "block";
+  }
+}

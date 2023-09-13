@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/auth.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Login</title>
 </head>
 <body>
@@ -18,9 +19,12 @@
         <div class="desc-subtitle">Real Estate investment amount of 220,000 US</div>
       </div>
     </div>
-    <a class="img-flag" href="">
-      <img src="./assets/img/flag.png"/>
-    </a>
+    <div class="user-container">
+      <img src="./assets/img/flag.png" alt="User 1" class="user-image img-flag" onclick="toggleDropdown('dropdown1')">
+    <div id="dropdown1" class="dropdown">
+        <a href="login.html">Login</a>
+    </div>
+   </div>
   </nav>
       <br>
       <br>
@@ -43,6 +47,7 @@
       <div>Confidential - Copyright © 2023, Company Name, All Rights Reserved</div>
       <div>The offer is valid for fifteen days from the date: xxxxxxxxxxx</div>
     </div>
-  </footer>        
+  </footer>
+  <script src="./assets/js/main.js"></script>        
 </body>
 </html>
